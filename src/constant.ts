@@ -1,0 +1,1 @@
+export const walletContractAddress = "kQDiBs2f3O937YqRlmmo__ku1cfaOTMhdtBNmDGpDOJIQAfd";
