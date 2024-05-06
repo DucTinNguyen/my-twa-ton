@@ -1,12 +1,17 @@
-import { Address } from "@ton/core";
+import { Address } from '@ton/core'
 
 export type bidParams = {
-  queryId: number;
-  bidAddress: Address;
-  amount: bigint;
-};
+  queryId: number
+  bidAddress: Address
+  amount: bigint
+}
 
 export type mintType = {
-  queryId: number;
-  amount: bigint;
-};
+  queryId: number
+  amount: bigint
+}
+
+export type DictionaryBids = {
+  address: string | undefined | any
+  price: number | undefined
+}
